@@ -1,0 +1,62 @@
+cc.initialise({
+	cookies: {
+		social: {},
+		analytics: {},
+		necessary: {}
+	},
+	settings: {
+		style: "monochrome",
+		refreshOnConsent: true,
+                bannerPosition: "bottom",
+                hideallsitesbutton: true,
+                disableallsites: true,
+                hideprivacysettingstab: false,
+                tagPosition: "bottom-right"
+	},
+	strings: {
+        necessaryDefaultTitle: "Strictly necessary", 
+        socialDefaultTitle: "Social media", 
+        analyticsDefaultTitle: "Analytics", 
+        advertisingDefaultTitle: "Advertising", 
+        defaultTitle: "Default cookie title", 
+        necessaryDefaultDescription: "Some cookies on this website are strictly necessary and cannot be disabled.", 
+        socialDefaultDescription: "Facebook, Twitter and other social websites need to know who you are to work properly.", 
+        analyticsDefaultDescription: "We anonymously measure your use of this website to improve your experience.", 
+        advertisingDefaultDescription: "Adverts will be chosen for you automatically based on your past behaviour and interests.", 
+        defaultDescription: "Default cookie description.", 
+        notificationTitle: "Your experience on this site will be improved by allowing cookies", 
+        notificationTitleImplicit: "We use cookies to ensure you get the best experience on our website", 
+        poweredBy: "Cookie Consent plugin for the EU cookie law", 
+        privacyPolicy: "Privacy policy", 
+        learnMore: "Learn more", 
+        seeDetails: "see details", 
+        seeDetailsImplicit: "change your settings", 
+        hideDetails: "hide details", 
+        savePreference: "Save preference", 
+        saveForAllSites: "Save for all sites", 
+        allowCookies: "Allow cookies", 
+        allowCookiesImplicit: "Close", 
+        allowForAllSites: "Allow for all sites", 
+        customCookie: "This website uses a custom type of cookie which needs specific approval", 
+        privacySettings: "Privacy settings", 
+        privacySettingsDialogTitleA: "Privacy settings", 
+        privacySettingsDialogTitleB: "for this website", 
+        privacySettingsDialogSubtitle: "Some features of this website need your consent to remember who you are.", 
+        closeWindow: "Close window", 
+        changeForAllSitesLink: "Change settings for all websites", 
+        preferenceUseGlobal: "Use global setting", 
+        preferenceConsent: "I consent", 
+        preferenceDecline: "I decline", 
+        preferenceAsk: "Ask me each time", 
+        preferenceAlways: "Always allow", 
+        preferenceNever: "Never allow", 
+        notUsingCookies: "This website does not use any cookies.", 
+        clearedCookies: "Your cookies have been cleared, you will need to reload this page for the settings to have effect.", 
+        allSitesSettingsDialogTitleA: "Privacy settings", 
+        allSitesSettingsDialogTitleB: "for all websites", 
+        allSitesSettingsDialogSubtitle: "You may consent to these cookies for all websites that use this plugin.", 
+        backToSiteSettings: "Back to website settings"
+	}
+});
+
+
